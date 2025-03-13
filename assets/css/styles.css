@@ -143,3 +143,42 @@ header {
     height: 300px; 
     background-color: white; 
 }
+
+footer {
+    background-color: #B6CB5B;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 30px 40px;
+    text-align: center;
+}
+
+
+footer p {
+    margin: 0; 
+    font-size: 1rem;
+    font-family: "Neucha", cursive;
+    font-weight: bold;
+}
+
+footer p a {
+    text-decoration: none;
+    color: black;
+}
+
+
+footer p:nth-child(2) {
+    flex-grow: 1; 
+    text-align: center; 
+}
+
+.socialIcons {
+    display: flex;
+    gap: 20px; 
+}
+
+.socialIcons img {
+    width: 24px; 
+    height: 24px;
+    cursor: pointer;
+}
