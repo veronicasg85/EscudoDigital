@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+body {
+    background-color: #001F4F;
+}
+
+
+#banner {
+    position: relative;
+    background-image: url(../img/ciberseguridad.jpeg);
+    background-size: cover;   
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 400px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white; 
+    padding: 50px 20px;
+}
+
+#banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+#banner * {
+    position: relative;
+    z-index: 2;
+}
+
+#banner h1 {
+    font-family: "Neucha", cursive;
+    font-size: 2.5rem; 
+    font-weight: bold;
+    max-width: 80%; 
+}
+
+#banner p {
+    font-size: 1.3rem;
+}
+
+#banner button {
+    background-color: #B6CB5B;
+    font-family: "Neucha", cursive;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#banner button a {
+    text-decoration: none;
+    color: black;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.infoContainer {
+    width: 45%;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.infoContainer h2 {
+    font-size: 2rem; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 50px; 
+}
+
+.separator {
+    width: 1px; 
+    height: 500px; 
+    background-color: white; 
+}
