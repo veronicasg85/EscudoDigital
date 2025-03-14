@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+
+    <header>
+
+        <div id="headerLogo">
+            <img class="logo" src="../assets/img/logo.svg" alt="">
+            <h2>ESCUDO DIGITAL</h2>
+        </div>
+
+        <div id="headerText">
+
+            <ul>
+                <li class="pages"><a href="../index.html">INICIO</a></li>
+                <li class="pages"><a href="../pages/info.html">INFORMACIÓN</a></li>
+                <li class="pages"><a href="../pages/test.html">TEST</a></li>
+                <li class="pages"><a href="contact.html">CONTACTO</a></li>
+            </ul>
+
+        </div>
+
+    </header>
+
+    <div class="contactContainer">
+        <h1>FORMULARIO DE CONTACTO</h1>
+        <p class="required-note">*Campos obligatorios para poder tramitar su solicitud</p>
+
+        <form id="contactForm">
+            <div class="form-group">
+                <label class="required" for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label class="required" for="email">Dirección de correo electrónico</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label for="pais">País</label>
+                <select id="pais" name="pais">
+                    <option value="">Seleccionar</option>
+                    <option value="es">España</option>
+                    <option value="fr">Francia</option>
+                    <option value="ger">Alemania</option>
+                    <option value="jp">Japón</option>
+                    <option value="mx">México</option>
+                    <option value="ar">Argentina</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label class="required" for="asunto">Asunto</label>
+                <input type="text" id="asunto" name="asunto">
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="terms">
+                <label for="terms">Acepto que se lleve a cabo el tratamiento de mis datos tal y como se detalla en Aviso legal, Política de privacidad, Registro de actividad formulario web y Política de cookies.</label>
+              </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer>
+
+        <p>© 2025 ESCUDO DIGITAL</p>
+        <p><a href="https://www.incibe.es/" target="_blank">INCIBE</a> | <a href="https://owasp.org/www-project-top-ten/" target="_blank">OWASP</a></p>
+
+        <div class="socialIcons">
+            <a href="https://www.linkedin.com/in/verosampedro/" target="_blank">
+                <img src="../assets/img/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/veronicasg85" target="_blank">
+                <img src="../assets/img/github.svg" alt="GitHub">
+            </a>
+        </div>
+
+    </footer>
+
+    <script src="../assets/js/contact.js"></script>
+    
+</body>
+</html>
