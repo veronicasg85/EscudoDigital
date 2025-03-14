@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Seguridad</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+
+    <header>
+
+        <div id="headerLogo">
+            <img class="logo" src="../assets/img/logo.svg" alt="">
+            <h2>ESCUDO DIGITAL</h2>
+        </div>
+
+        <div id="headerText">
+
+            <ul>
+                <li class="pages"><a href="../index.html">INICIO</a></li>
+                <li class="pages"><a href="pages/info.html">INFORMACIÓN</a></li>
+                <li class="pages"><a href="/pages/test.html">TEST</a></li>
+                <li class="pages"><a href="index.html">CONTACTO</a></li>
+            </ul>
+
+        </div>
+
+    </header>
+
+    <h1 id="quizTitle">TEST SOBRE CIBERSEGURIDAD</h1>
+
+    <div id="quizContainer">
+        <h2>Responde las siguientes preguntas</h2> 
+        
+        <form id="quizForm">
+            <div class="question">
+                <p><strong>1. ¿Cuál es la mejor forma de crear una contraseña segura?</strong></p>
+                <label><input type="radio" name="q1" value="incorrecto"> Usar mi fecha de nacimiento</label><br>
+                <label><input type="radio" name="q1" value="correcto"> Combinar letras, números y símbolos</label><br>
+                <label><input type="radio" name="q1" value="incorrecto"> Usar una palabra común</label>
+            </div>
+
+            <div class="question">
+                <p><strong>2. ¿Qué debes hacer si recibes un correo sospechoso?</strong></p>
+                <label><input type="radio" name="q2" value="correcto"> No abrirlo y reportarlo</label><br>
+                <label><input type="radio" name="q2" value="incorrecto"> Descargar los archivos adjuntos</label><br>
+                <label><input type="radio" name="q2" value="incorrecto"> Responder con mis datos</label>
+            </div>
+
+            <div class="question">
+                <p><strong>3. ¿Qué es el phishing?</strong></p>
+                <label><input type="radio" name="q3" value="incorrecto"> Un software antivirus</label><br>
+                <label><input type="radio" name="q3" value="correcto"> Un fraude que busca robar información</label><br>
+                <label><input type="radio" name="q3" value="incorrecto"> Un tipo de cifrado seguro</label>
+            </div>
+
+            <button type="submit">Enviar respuestas</button>
+        </form>
+
+        <p id="resultado"></p>
+    </div>
+
+
+    <footer>
+
+        <p>© 2025 ESCUDO DIGITAL</p>
+        <p><a href="https://www.incibe.es/" target="_blank">INCIBE</a> | <a href="https://owasp.org/www-project-top-ten/" target="_blank">OWASP</a></p>
+
+        <div class="socialIcons">
+            <a href="https://www.linkedin.com/in/verosampedro/" target="_blank">
+                <img src="../assets/img/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/veronicasg85" target="_blank">
+                <img src="../assets/img/github.svg" alt="GitHub">
+            </a>
+        </div>
+
+    </footer>
+
+
+    <script src="../assets/js/test.js"></script>
+    
+</body>
+</html>
