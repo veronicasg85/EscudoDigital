@@ -100,12 +100,12 @@
     background-color: #B6CB5B; 
     transform: rotateY(180deg); 
     padding: 15px;
-    border-radius: 0 0 15px 15px; 
+    border-radius: 15px 15px 15px 15px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 1; 
+    
 }
 
 
