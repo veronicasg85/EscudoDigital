@@ -28,3 +28,4 @@ https://veronicasg85.github.io/EscudoDigital/
 
 ## 📷 Gif (del estado actual)
 
+![alt text](assets/img/Escudo-Digital-Brave-2025-05-15-17-35-53.gif)
